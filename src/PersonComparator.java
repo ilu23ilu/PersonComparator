@@ -12,6 +12,7 @@ public class PersonComparator implements Comparator<Person> {
         if (o1.getWordsSurname() < maxCountWords || o2.getWordsSurname() < maxCountWords) {
             if (o1.getWordsSurname() < o2.getWordsSurname()) {
                 return 1;
+
             } else if (o1.getWordsSurname() > o2.getWordsSurname()) {
                 return -1;
             }
